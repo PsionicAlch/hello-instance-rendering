@@ -13,6 +13,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/output)
 set(SOURCES
     ${SRC_DIR}/main.cpp
     ${SRC_DIR}/stb_image.cpp
+    ${SRC_DIR}/camera.cpp
+    ${SRC_DIR}/mesh.cpp
+    ${SRC_DIR}/model.cpp
+    ${SRC_DIR}/shader.cpp
+    ${SRC_DIR}/utility.cpp
 )
 
 set(GLAD_SRC ${DEP_DIR}/glad/src/glad.c)
