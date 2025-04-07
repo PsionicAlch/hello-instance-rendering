@@ -104,13 +104,15 @@ build/output/HelloInstanceRendering
 **Windows**
 
 ```bash
-output\HelloInstanceRendering.exe
+cd output
+HelloInstanceRendering.exe
 ```
 
 **MacOS/Linux**
 
 ```bash
-./output/HelloInstanceRendering
+cd output
+./HelloInstanceRendering
 ```
 
 ### Step 7. Keeping the Repository Updated
